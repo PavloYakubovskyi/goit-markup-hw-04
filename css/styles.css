@@ -375,6 +375,16 @@ body {
   fill: #ffffff;
 }
 
+.employees-soc-link:hover,
+.employees-soc-link:focus {
+  background-color: #404bbf;
+}
+
+.employees-soc-link .employees-soc-icon:hover,
+.employees-soc-link .employees-soc-icon:focus {
+  fill: #f4f4fd;
+}
+
 /* ======================== /EMPLOYEES ======================== */
 /* ======================== CUSTOMERS ========================== */
 
@@ -401,8 +411,20 @@ body {
   align-items: center;
   justify-content: center;
 }
-/* .customer-icon {
-} */
+.customer-icon {
+  fill: #8e8f99;
+}
+
+.customer-link:hover,
+.customer-link:focus {
+  border: 1px solid #404bbf;
+  border-radius: 4px;
+}
+
+.customer-link .customer-icon:hover,
+.customer-link .customer-icon:focus {
+  fill: #404bbf;
+}
 
 /* ======================== /CUSTOMERS ========================= */
 /* ======================== FOOTER ======================== */
@@ -428,6 +450,42 @@ body {
 .footer-content {
   width: 264px;
 }
+
+.footer-soc-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  gap: 24px;
+}
+
+.footer-soc-item {
+  width: 40px;
+  height: 40px;
+}
+.footer-soc-link {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-soc-icon {
+  fill: #f4f4fd;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-soc-link .footer-soc-icon:hover,
+.footer-soc-link .footer-soc-icon:focus {
+  fill: #f4f4fd;
+}
+
 /* ======================== /FOOTER ========================  */
 
 /* ======================= PORTFOLIO ========================= */
