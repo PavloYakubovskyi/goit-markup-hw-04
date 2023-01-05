@@ -124,7 +124,6 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -276,6 +275,20 @@ body {
 
 .about-item:not(:nth-child(4n)) {
   margin-right: 24px;
+}
+
+.about-item::before {
+  display: block;
+  content: '';
+  height: 112px;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ccc;
+}
+
+.icon-delivery::before {
+  background-image: url(../images/about/antenna.png);
 }
 
 /* .icon-logo {
