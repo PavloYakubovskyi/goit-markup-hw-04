@@ -281,28 +281,26 @@ body {
   display: block;
   content: '';
   height: 112px;
-  /* background-size: contain; */
   background-repeat: no-repeat;
   background-position: center;
   background-color: #ccc;
 }
 
-.icon-delivery::before {
+.about-item.icon-antenna::before {
   background-image: url(../images/about/antenna.png);
 }
 
-/* .icon-logo {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  padding: 24px 0;
-  margin-bottom: 8px;
-  border-radius: 4px;
+.about-item.icon-clock::before {
+  background-image: url(../images/about/clock.png);
 }
-.about-link {
+
+.about-item.icon-diagram::before {
+  background-image: url(../images/about/diagram.png);
 }
-.about-icon {
-} */
+
+.about-item.icon-astronaut::before {
+  background-image: url(../images/about/astronaut.png);
+}
 
 /* ======================== /ABOUT ========================  */
 
@@ -466,6 +464,7 @@ body {
 
 .footer-soc-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 8px;
   gap: 24px;
