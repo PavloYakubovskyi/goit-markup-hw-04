@@ -548,7 +548,7 @@ body {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
+  gap: 44px 20px;
 }
 
 .portfolio-menu-item {
