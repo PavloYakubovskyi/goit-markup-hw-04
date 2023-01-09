@@ -56,11 +56,11 @@ ol {
 
 /* або може бути назва .wrapper */
 .container {
-  width: 1152px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 body {
@@ -203,10 +203,13 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/hero-bg.jpg);
+    url(../images/hero/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
+  height: 600px;
+  margin: 0 auto;
 }
 
 /* .hero-content-wrapper {
@@ -285,7 +288,10 @@ body {
   height: 112px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #ccc;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 24px 100px;
 }
 
 .icon-antenna::before {
@@ -424,20 +430,20 @@ body {
 .customer-link {
   width: 100%;
   height: 100%;
-  border: 1px solid #8e8f99;
+  border: 1px solid currentColor;
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #8e8f99;
 }
 .customer-icon {
-  fill: #8e8f99;
+  fill: currentColor;
 }
 
 .customer-link:hover,
 .customer-link:focus {
-  border: 1px solid #404bbf;
-  border-radius: 4px;
+  color: #404bbf;
 }
 
 .customer-link .customer-icon:hover,
@@ -450,14 +456,13 @@ body {
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-content-wrapper {
   display: flex;
   gap: 120px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin-right: auto;
 }
 
 .footer-content {
@@ -472,22 +477,20 @@ body {
   margin-top: 16px;
 }
 
-.footer-soc-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 16px;
-}
-
-.footer-soc-title {
-  display: flex;
-  justify-content: center;
+.footer-soc-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+}
+
+.footer-soc-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
 }
 
 .footer-soc-item {
